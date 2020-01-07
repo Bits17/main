@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.logo {
+    font-family: 'Gugi', cursive;
+    font-size: 125%;
+    text-align: center;
+    margin: 10px 10px;
+    color: #B7B7B7;
+    
+}
+
+.Welcome {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin: 40px 0;
+
+}   
+
+.Osnova {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+/*.levo {
+    width: 15%;
+    background-color: #181818;
+}
+
+.pravo {
+    width: 15%;
+    background-color: #181818;
+}*/
+
+.saletext {
+    text-align: center;
+    color: #9F010F;
+}
+
+
+.center {
+        display:flex;
+        justify-content: center;
+        width: 70%;
+        text-align: center;
+        
+}
+
+a {
+    color: #9F010F;
+   text-decoration: none; 
+}
+
+.button {
+    
+    font-family: 'Fjalla One', sans-serif;
+    height: 30px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: aliceblue
+}
+
+.shablon {
+    border-radius: 14px;
+    color: #B7B7B7;
+    margin: 10px 100px;
+    background-color: #9F010F;
+    }
+    
+.nuz {
+    line-height: 0.5em;
+    margin: 0px 0px;
+    background-color: aliceblue;
+    color: black;
+    padding: 1px;
+    
+    }
+    
+@media screen and (max-width: 1000px) {
+
+    .center {
+        display:flex;
+        width: 90%;
+        text-align: center;
+        
+        
+
+    }
+
+
+  .audio {
+    width: 80%
+}  
+
+
+    .shablon {
+        display: inline-block;
+        color: #B7B7B7;
+        background-color: #9F010F;
+        width: 30%;
+    }
+    
+    .Verhbita {
+        
+        margin: 1px;
+    }
+    
+    .button {
+        font-size: 13px;
+    }  
+}
